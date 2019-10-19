@@ -13,9 +13,16 @@ $(() => {
       console.log(userInput);
       // This is the ajax call to get information from the weatherstack API
         $.ajax({
-          url: "http://api.weatherstack.com/current?access_key=5dd8a14370cd45b1946ba62524b4683f&query=Chicago"
+          url: "http://api.weatherstack.com/current?access_key=5dd8a14370cd45b1946ba62524b4683f&query=" + userInput
         }).then(
           (data)=>{  //If successful
+            //This selects the h2 with class city and returns the location name from
+            //the data set
+            $('.city').html(data.location.name);
+
+            //This selects the h2 with class temperature and returns the location name from
+            //the data set 
+            $('.temperature').html(data.current.temperature)
             console.log(data.location.name);  //Success callback will show if it works!
           },
           ()=>{  //If error and unsucceful in data request.
