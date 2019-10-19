@@ -1,10 +1,42 @@
 body {
   background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
-.test {
-  margin-top: 25px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid blue;
+header {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* THIS IS THE MAIN HEADER TITLE */
+.main-header {
+  text-align: center;
+}
+
+/* MAIN CONTENT DIV BOX */
+.main-content {
+  margin: 0 20%;
+  border: 2px solid blue;
+}
+
+/* THIS IS THE INPUT BOX AND BUTTON */
+form {
+  text-align: center;
+}
+
+/* THIS IS THE H2 TITLE HEADERS FOR CITY, TEMPERTURE, WEATHER, DESCRIPTION */
+h2 {
+  text-align: center;
+}
+
+/* MODAL BOX STYLING */
+#modal {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left:0;
+  height:100%;
 }

@@ -11,18 +11,47 @@
     <title></title>
   </head>
   <body>
-    <!-- This is the header  -->
-    <h1>Find the Weather</h1>
-    <!-- Input Form -->
-    <form >
-      <input id="userInput1" type="text" name="" value="" placeholder="Enter a U.S. city here">
-      <input type="submit" name="" value="Click!">
-    </form>
 
-    <h2>Current City</h2>
-    <h2 class="city"></h2>
-    
-    <h2>Current Temperature</h2>
-    <h2 class="temperature"></h1>
+    <header>
+      <h3>Weather App</h3>
+    </header>
+
+    <!-- This is the header title  -->
+    <h1 class="main-header">Find the Weather</h1>
+
+    <div class="main-content">
+    <!-- Input Form -->
+        <form >
+          <input id="userInput1" type="text" name="" value="" placeholder="Enter a U.S. city here">
+          <input type="submit" name="" value="Click!">
+        </form>
+
+        <h2>Current City:</h2>
+        <h2 class="city"></h2>
+
+        <h2>Current Temperature:</h2>
+        <h2 class="temperature"></h2>
+
+        <h2>Weather Description:</h2>
+        <h2 class="weather-description"></h2>
+      </div>
+
+      <!-- This is the Modal  -->
+      <button id="openModal" type="button" name="button">Instructions</button>
+      <!-- This is the outer modal box -->
+      <div id="modal">
+      <!-- This is the box for the modal  -->
+        <div id="modal-textbox">
+        <a id="close" href="#">Close</a>
+          <h1>Random Weather Facts</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+
+
+
+
   </body>
 </html>

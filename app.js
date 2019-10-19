@@ -23,6 +23,8 @@ $(() => {
             //This selects the h2 with class temperature and returns the location name from
             //the data set
             $('.temperature').html(data.current.temperature)
+            //This selects 
+            $('.weather-description').html(data.current.weather_descriptions)
             console.log(data.location.name);  //Success callback will show if it works!
           },
           ()=>{  //If error and unsucceful in data request.
