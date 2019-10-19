@@ -3,6 +3,36 @@ console.log($);
 //Window onload
 $(() => {
 
+
+      //Modal code - From Brendan's lesson
+
+      //This selects the Instructions Button
+      const $openBtn = $('#openModal');
+
+      //This grabs the modal element
+      const $modal = $('#modal');
+
+      //This grabs close button
+      const $closeBtn = $('#close');
+
+      //This is a function that sets the modal to display block on the screen.  It is
+      //currently set to display none.
+      const openModal = () => {
+        $modal.css('display', 'block');
+      }
+
+      //This is a function that sets the modal to display none again.
+      const closeModal = () => {
+        $modal.css('display', 'none');
+      }
+
+      //This sets and event listener on the Instructions button to open the modal
+      $openBtn.on('click', openModal)
+
+      //This sets and event listener on the close button
+      $closeBtn.on('click', closeModal)
+
+
       //This selects the form element and sets an event listener to run on submit.
     $('form').on('submit', (event)=> {
       //This prevents the page from reloading
@@ -23,7 +53,7 @@ $(() => {
             //This selects the h2 with class temperature and returns the location name from
             //the data set
             $('.temperature').html(data.current.temperature)
-            //This selects 
+            //This selects
             $('.weather-description').html(data.current.weather_descriptions)
             console.log(data.location.name);  //Success callback will show if it works!
           },

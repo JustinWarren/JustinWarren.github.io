@@ -32,11 +32,24 @@ h2 {
   text-align: center;
 }
 
-/* MODAL BOX STYLING */
+/* MODAL BOX STYLING - From Brendan's lesson */
 #modal {
+  display: none;
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
   left:0;
   height:100%;
+  width: 100%;
+  z-index: 1;   /*Per notes this puts modal in front of the body...usually has default of 0*/
+  overflow: auto;
+}
+
+#modal-textbox {
+  background-color: white;
+  height: 375px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 150px auto;
+  padding: 25px;
 }
