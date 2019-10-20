@@ -1,14 +1,42 @@
 body {
-  background-color: whitesmoke;
+  background-color: #fff;
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
+/* Fonts - Roboto - HEADERS
+Roboto Condensed - paragraphs */
+/*https://coolors.co/9fddff-00bbff-00a5ff-125e3b-686868 */
+
 header {
-  background-color: lightgrey;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#logo {
+  height: 80px;
+  width: 160px;
+  margin: 10px;
+}
+
+#openModal {
+  padding: 5px;
+  margin:10px;
+  border-radius: 3px;
+  border: 2px solid #00BBFF;
+  background-color: #00A5FF;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#openModal:hover {
+  color: #00A5FF;
+  background-color: #fff;
+  border: 2px solid #00BBFF;
 }
 
 /* THIS IS THE MAIN HEADER TITLE */
