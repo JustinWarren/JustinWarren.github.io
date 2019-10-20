@@ -55,6 +55,19 @@ form {
   text-align: center;
 }
 
+/* MAIN INPUT BOX */
+#userInput1 {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#mainbtn {
+  padding: 5px;
+  border-radius: 3px;
+  color: #FFF;
+  background-color: #00BBFF;
+  font-size: 1em;
+}
 /* THIS IS THE H2 TITLE HEADERS FOR CITY, TEMPERTURE, WEATHER, DESCRIPTION */
 h2 {
   text-align: center;
