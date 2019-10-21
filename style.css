@@ -166,3 +166,12 @@ footer {
   padding: 10px;
   color: #FFF;
 }
+
+
+  /* MEDIA QUERIES */
+/* Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_hide */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
