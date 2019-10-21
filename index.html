@@ -25,20 +25,20 @@
     <!-- Input Form -->
         <form >
           <input id="userInput1" type="text" name="" value="" placeholder="Enter a U.S. city here">
-          <input id="mainbtn" type="submit" name="" value="Click!">
+          <input id="mainbtn" type="submit" name="" value="Search">
         </form>
 
-        <p>Current City:</p>
-        <p class="city"></p>
+        <p class="city-title">Current City:</p>
+        <p class="city city-display"></p>
 
-        <p>Current Temperature:</p>
-        <p class="temperature"></p>
+        <p class="city-title">Current Temperature:</p>
+        <p class="temperature city-display"></p>
 
-        <p>Weather Description:</p>
-        <p class="weather-description"></p>
+        <p class="city-title">Weather Description:</p>
+        <p class="weather-description city-display"></p>
       </div>
 
-      <!-- This is the Modal  -->
+      <!-- This is the Modal - Code from Brendan Quirk @ General Assembly -->
       <!-- This is the outer modal box -->
       <div id="modal">
       <!-- This is the box for the modal  -->
@@ -60,8 +60,12 @@
 
 
       <footer>
-        <p>API used <a href="https://weatherstack.com/">Weatherstack</a>
-        <p>Created my free logo at <a href="https://logomakr.com/">LogoMakr.com</a></p>
+        <div class="footer-api">
+          <p>API used: <a href="https://weatherstack.com/">Weatherstack</a>
+        </div>
+        <div class="footer-logo">
+          <p>Created my free logo at <a href="https://logomakr.com/">LogoMakr.com</a></p>
+        </div>
       </footer>
   </body>
 </html>

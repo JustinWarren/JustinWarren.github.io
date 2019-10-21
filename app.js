@@ -51,8 +51,8 @@ $(() => {
             $('.city').html(data.location.name);
 
             //This selects the h2 with class temperature and returns the location name from
-            //the data set
-            $('.temperature').html(data.current.temperature)
+            //the data set with the degree symbol and F for fahrenheit added on
+            $('.temperature').html(data.current.temperature + "&#176;" + " F")
             //This selects
             $('.weather-description').html(data.current.weather_descriptions)
             console.log(data.location.name);  //Success callback will show if it works!
