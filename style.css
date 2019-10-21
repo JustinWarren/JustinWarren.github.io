@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #00BBFF;
   margin: 0;
   padding: 0;
   font-family: Roboto;
@@ -23,7 +23,8 @@ header {
 }
 
 #openModal {
-  padding: 5px;
+  padding: 3px 10px 3px 10px;
+  letter-spacing: 1px;
   margin:10px;
   border-radius: 3px;
   border: 2px solid #00BBFF;
@@ -47,7 +48,9 @@ header {
 /* MAIN CONTENT DIV BOX */
 .main-content {
   margin: 0 20%;
-  border: 2px solid blue;
+  border: 2px solid #00A5FF;
+  border-radius: 5px;
+  background-color: white;
 }
 
 /* THIS IS THE INPUT BOX AND BUTTON */
