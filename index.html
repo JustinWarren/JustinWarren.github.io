@@ -15,7 +15,7 @@
 
     <header>
       <img id="logo" src="https://i.imgur.com/OZ0f4xC.png?1" alt="clouds logo">
-      <button id="openModal" type="button" name="button">Instructions</button>
+      <button id="openModal" type="button" name="button">Weather Facts!</button>
     </header>
 
     <!-- This is the header title  -->
@@ -43,14 +43,17 @@
       <div id="modal">
       <!-- This is the box for the modal  -->
         <div id="modal-textbox">
-        <a id="close" href="#">Close</a>
-          <h3>Random Weather Facts</h3>
+          <h3>Did you know?</h3>
           <ul>
             <li>About 2,000 thunderstorms rain down on Earth every minute.</li>
             <li>Hurricanes can push more than 6m of water ashore.</li>
             <li>You can tell the temperature by counting a cricket's chirps!</li>
           </ul>
           <p class="facts"><a href="https://www.natgeokids.com/za/discover/geography/physical-geography/30-freaky-facts-about-weather/">Source</a></p>
+          <!-- This puts the close button in the modal on the bottom -->
+          <div id="modal-footer">
+            <button id="close" type="button" name="button">Close</button>
+          </div>
         </div>
       </div>
 

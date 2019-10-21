@@ -16,6 +16,10 @@ header {
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+}
+
 #logo {
   height: 80px;
   width: 160px;
@@ -43,6 +47,8 @@ header {
 /* THIS IS THE MAIN HEADER TITLE */
 .main-header {
   text-align: center;
+  padding: 35px;
+  letter-spacing: 1px;
 }
 
 /* MAIN CONTENT DIV BOX */
@@ -51,6 +57,7 @@ header {
   border: 2px solid #00A5FF;
   border-radius: 5px;
   background-color: white;
+  padding: 25px;
 }
 
 /* THIS IS THE INPUT BOX AND BUTTON */
@@ -91,9 +98,37 @@ h2 {
 
 #modal-textbox {
   background-color: white;
-  height: 375px;
+  height: 300px;
   width: 400px;
   border-radius: 5px;
   margin: 150px auto;
   padding: 25px;
+}
+
+/* Header in the Modal */
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.facts {
+  text-align: right;
+  font-size: .75em;
+  margin-right: 30px;
+}
+
+/* This is the div that contains the close button */
+#modal-footer {
+  text-align: center;
+  padding: 3px 5px;
+}
+
+#close {
+  padding: 10px 15px;
+  background-color: #00BBFF;
+  margin-top: 25px;
+  border-radius: 3px;
+  font-family: "Roboto";
+  color: white;
+  font-size: 1em;
 }
