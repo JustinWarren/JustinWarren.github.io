@@ -57,7 +57,7 @@ a {
   border: 2px solid #00A5FF;
   border-radius: 5px;
   background-color: white;
-  padding: 25px;
+  padding: 40px;
 }
 
 /* THIS IS THE INPUT BOX AND BUTTON */
@@ -67,9 +67,10 @@ form {
 
 /* MAIN INPUT BOX */
 #userInput1 {
-  padding: 10px;
+  padding: 10px 50px;
   border-radius: 5px;
 }
+
 
 #mainbtn {
   padding: 5px;
@@ -77,6 +78,8 @@ form {
   color: #FFF;
   background-color: #00BBFF;
   font-size: 1em;
+  display: block;
+  margin: 15px auto;
 }
 /* THIS IS THE H2 TITLE HEADERS FOR CITY, TEMPERTURE, WEATHER, DESCRIPTION */
 h2 {
