@@ -170,8 +170,61 @@ footer {
 
   /* MEDIA QUERIES */
 /* Source: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_media_hide */
+/* MEDIA QUERIES FOR THE TABLET AT 768PX */
 @media screen and (max-width: 768px) {
-  body {
+  /* body {
     background-color: blue;
+  } */
+
+  #logo {
+    height: 60px;
+    width: 120px;
+    margin: 10px;
   }
+
+  .footer-api {
+    padding: 15px;
+    color: #FFF;
+    font-size: .75em;
+  }
+
+  .footer-logo {
+    padding: 15px;
+    color: #FFF;
+    font-size: .75em;
+  }
+
+}
+
+
+
+@media screen and (max-width: 670px) {
+  /* body {
+    background-color: orange;
+  } */
+
+  footer {
+    position: absolute; /*This positions the element relative to the browser window*/
+    bottom: 0px;   /*This causes there to be no space btween bottom of page and footer*/
+    width: 100%;
+    background-color: #00BBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 25px; */
+  }
+
+  .footer-api {
+    padding: 15px 15px 0px 15px;
+    color: #FFF;
+    font-size: .85em;
+  }
+
+  .footer-logo {
+    padding: 10px 15px 0px 15px;
+    color: #FFF;
+    font-size: .85em;
+  }
+
 }
