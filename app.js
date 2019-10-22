@@ -43,7 +43,7 @@ $(() => {
       console.log(userInput);
       // This is the ajax call to get information from the weatherstack API
         $.ajax({
-          url: "http://api.weatherstack.com/current?access_key=5dd8a14370cd45b1946ba62524b4683f&units=f&query=" + userInput
+          url: "https://api.weatherstack.com/current?access_key=5dd8a14370cd45b1946ba62524b4683f&units=f&query=" + userInput
         }).then(
           (data)=>{  //If successful
             //This selects the h2 with class city and returns the location name from
